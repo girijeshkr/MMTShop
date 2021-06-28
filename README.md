@@ -4,17 +4,17 @@ The solution itself has main folder for source code (`/src`) which contains belo
 
 # Source codes
 
--/MMTShop/MMTShop: this contains the main project
--/MMTShop/TestConsole: this contains the console testing project
--/MMTShop/DBStructureAndDataLoad.sql: This is the SQL file which can be executed as is to create all the required db schema and initial data load.
+1) -/MMTShop/MMTShop: this contains the main project
+2) -/MMTShop/TestConsole: this contains the console testing project
+3) -/MMTShop/DBStructureAndDataLoad.sql: This is the SQL file which can be executed as is to create all the required db schema and initial data load.
                                      (This step is not required if you use the Migrations avaialble in the MMTShop Projects) 
 
-How to Run:
+# How to Run:
 
 1) Please Open the Soultion in Visual Studio
 2) Please run the command "Update-Database" in Package Manager Console.
    It creates a new database named as MMTShop and all required components of it. It also inserts initial data.
-   Or
+   ##### Or
    Run the -/MMTShop/DBStructureAndDataLoad.sql in an existing empty MMTShop database.
 3) Please set both the projects as startup projects.
 4) Run the soltution.
